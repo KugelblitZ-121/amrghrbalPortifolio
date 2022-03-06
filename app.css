@@ -1,0 +1,344 @@
+#mynavbar {
+  background-color: #090808;
+}
+
+#mynavbar .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+#mynavbar #navbarNavAltMarkup a:hover {
+  color: #0bcbb5;
+}
+
+/* Styling the main section (i.e the first section) */
+.main {
+  padding: 200px 80px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url("images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #ffffff;
+}
+.main h1 {
+  margin-bottom: 50px;
+}
+.main h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.main-btn {
+  background-color: #0bcbb5;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  transition: 0.5s ease;
+}
+.main-btn:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+}
+.main .social {
+  margin: 0px 10px;
+  padding: 0px 0px;
+  font-size: 2em;
+  color: #ffffff;
+}
+.main .social i {
+  margin: 0px 5px;
+  color: white;
+}
+
+.main-img:hover {
+  opacity: 80%;
+}
+.span-colour {
+  color: #0bcbb5;
+}
+
+/* Styling the about section (i.e the second section) */
+.about {
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 100px 50px;
+  background: url("images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about h2 {
+  text-align: center;
+  font-size: 4em;
+  color: #0bcbb5;
+}
+
+.about-h5 {
+  margin-bottom: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.about-h5-line {
+  height: 2px;
+  width: 20px;
+  background-color: #ffffff;
+  position: absolute;
+  background-color: #0bcbb5;
+}
+.left {
+  transform: translate(65px, 13px);
+}
+.right {
+  transform: translate(-65px, 13px);
+}
+.about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.about-desc {
+  width: 600px;
+  text-align: center;
+}
+
+/* Styling the hobbies section (i.e the third section) */
+.hobies {
+  padding: 100px 50px;
+  min-height: 100vh;
+  background-color: #d2dad9;
+}
+.hobies h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+  color: #099686;
+  margin-bottom: 100px;
+}
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  border-radius: 10px;
+  width: 400px;
+  margin: 20px 20px;
+  padding: 10px 10px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+}
+.card h3 {
+  text-align: center;
+  color: #090808;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.card p {
+  text-align: center;
+}
+.card i {
+  text-align: center;
+  font-size: 5em;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+/* Styling the skills section (i.e the forth section) */
+.skills {
+  min-height: 100vh;
+  padding: 80px 50px;
+  background-color: #090808;
+  color: #ffffff;
+}
+.skills h2 {
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 100px;
+  color: #0bcbb5;
+}
+.skills-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.skills-desc {
+  width: 750px;
+  padding: 50px;
+  border-radius: 10px;
+}
+.skills-name {
+  display: flex;
+  justify-content: space-between;
+}
+.skills-sec {
+  margin-bottom: 30px;
+}
+
+.outer-amount {
+  width: 100%;
+  height: 5px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: relative;
+}
+.inner-amount {
+  position: absolute;
+  background-color: #0bcbb5;
+  height: 5px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.html {
+  width: 80%;
+}
+.css {
+  width: 70%;
+}
+.js {
+  width: 60%;
+}
+.flutter {
+  width: 60%;
+}
+.java {
+  width: 65%;
+}
+
+/* Styling the contact section (i.e the third section) */
+.contact {
+  padding: 100px 50px;
+  background-color: #d2dad9;
+}
+.contact h2 {
+  text-align: center;
+  font-size: 4em;
+  color: #099686;
+  margin-bottom: 100px;
+}
+.card h4 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer {
+  color: #ffffff;
+  background-color: #090808;
+  padding: 15px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+@media (max-width: 499px) and (min-width: 250px) {
+  .skills-desc {
+    width: 350px;
+    padding: 25px;
+  }
+  .skills-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-desc {
+    width: 400px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .card {
+    width: 300px;
+  }
+  .skills-desc p,
+  h3 {
+    text-align: center;
+  }
+  .card {
+    width: 250px;
+  }
+  .card h4 {
+    font-size: large;
+  }
+  .contact h2 {
+    text-align: center;
+    font-size: 3em;
+    color: #099686;
+    margin-bottom: 50px;
+  }
+  .about-desc {
+    width: 350px;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 500px) {
+  .skills-desc {
+    width: 530px;
+    padding: 25px;
+  }
+  .skills-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-desc {
+    width: 400px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .card {
+    width: 300px;
+  }
+  .skills-desc p,
+  h3 {
+    text-align: center;
+  }
+  .card {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1025px) and (min-width: 801px) {
+  .about {
+    min-height: 80vh;
+  }
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-desc {
+    width: 400px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .skills-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills-desc {
+    width: 750px;
+    padding: 25px;
+  }
+  .skills-desc p,
+  h3 {
+    text-align: center;
+  }
+}
