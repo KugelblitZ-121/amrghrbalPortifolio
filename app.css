@@ -12,6 +12,7 @@
 
 /* Styling the main section (i.e the first section) */
 .main {
+  font-family: "Roboto", sans-serif;
   padding: 200px 80px;
   width: 100%;
   min-height: 100vh;
@@ -65,6 +66,7 @@
 
 /* Styling the about section (i.e the second section) */
 .about {
+  font-family: "Roboto", sans-serif;
   min-height: 100vh;
   background-color: #ffffff;
   padding: 100px 50px;
@@ -110,10 +112,14 @@
 .about-desc {
   width: 600px;
   text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
 }
 
 /* Styling the hobbies section (i.e the third section) */
 .hobies {
+  font-family: "Roboto", sans-serif;
   padding: 100px 50px;
   min-height: 100vh;
   background-color: #d2dad9;
@@ -159,10 +165,12 @@
 
 /* Styling the skills section (i.e the forth section) */
 .skills {
+  font-family: "Roboto", sans-serif;
   min-height: 100vh;
   padding: 80px 50px;
   background-color: #090808;
   color: #ffffff;
+  font-size: 1.2em;
 }
 .skills h2 {
   text-align: center;
@@ -236,14 +244,20 @@
 }
 
 .footer {
-  color: #ffffff;
+  color: #a3a1a1;
   background-color: #090808;
   padding: 15px;
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: center;
 }
 
 @media (max-width: 499px) and (min-width: 250px) {
+  .main {
+    text-align: center;
+  }
+  .skills {
+    font-size: 1em;
+  }
   .skills-desc {
     width: 350px;
     padding: 25px;
@@ -282,6 +296,9 @@
   }
   .about-desc {
     width: 350px;
+  }
+  .footer {
+    font-size: 0.7em;
   }
 }
 
