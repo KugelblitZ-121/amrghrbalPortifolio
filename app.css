@@ -250,6 +250,12 @@
   font-size: 1em;
   text-align: center;
 }
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
 
 @media (max-width: 499px) and (min-width: 250px) {
   .main {
