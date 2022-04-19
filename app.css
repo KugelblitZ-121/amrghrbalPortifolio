@@ -276,7 +276,8 @@
     flex-direction: column;
     align-items: center;
   }
-  .about-desc {
+  .about-desc,
+  .skills-desc {
     width: 400px;
     margin-top: 30px;
     text-align: center;
@@ -312,6 +313,7 @@
   .skills-desc {
     width: 530px;
     padding: 25px;
+    text-align: center;
   }
   .skills-content {
     flex-direction: column;
@@ -359,6 +361,7 @@
   .skills-desc {
     width: 750px;
     padding: 25px;
+    text-align: center;
   }
   .skills-desc p,
   h3 {
