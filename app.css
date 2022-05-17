@@ -85,6 +85,13 @@
   color: #0bcbb5;
 }
 
+.about-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: #099686 3px solid;
+}
+
 .about-h5 {
   margin-bottom: 70px;
   text-align: center;
